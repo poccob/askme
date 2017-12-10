@@ -1,0 +1,43 @@
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 15px 30px;
+  text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
+  font-weight: bold;
+}
+
+.button-green {
+  background: #8aba56;
+  color: #fff;
+  transition: all ease .3s;
+
+}
+
+.button-green:hover {
+  background: #6a9a36;
+  transition: all ease .3s;
+}
+
+.button-blue {
+  background: #59a3fc;
+  color: #fff;
+  transition: all ease .3s;
+}
+
+.button-blue:hover {
+  background: #2973ac;
+  transition: all ease .3s;
+}
+
+.button-gray {
+  background: #aaa;
+  color: #fff;
+  transition: all ease .3s;
+}
+
+.button-gray:hover {
+  background: #777;
+  transition: all ease .3s;
+}
