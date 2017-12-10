@@ -6,38 +6,26 @@
   padding: 15px 30px;
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);
   font-weight: bold;
+  border: none;
+}
+
+.button-dark {
+  background: #2e2f41;
+  color: #fff;
 }
 
 .button-green {
-  background: #8aba56;
+  background: #005a55;
   color: #fff;
-  transition: all ease .3s;
-
 }
 
-.button-green:hover {
-  background: #6a9a36;
-  transition: all ease .3s;
-}
-
-.button-blue {
-  background: #59a3fc;
+.button-light {
+  background: #00948a;
   color: #fff;
-  transition: all ease .3s;
 }
 
-.button-blue:hover {
-  background: #2973ac;
-  transition: all ease .3s;
-}
-
-.button-gray {
-  background: #aaa;
-  color: #fff;
-  transition: all ease .3s;
-}
-
-.button-gray:hover {
-  background: #777;
-  transition: all ease .3s;
+.button-small {
+  font-size: 15px;
+  line-height: 15px;
+  padding: 7px 15px;
 }
