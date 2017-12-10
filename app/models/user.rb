@@ -18,7 +18,7 @@ class User < ApplicationRecord
                                  too_long: "Максимальная длина username 40 символов"}
 
   attr_accessor :password
-  attr_accessor :username
+
 
   validates_presence_of :password, on: :create
   validates_confirmation_of :password
