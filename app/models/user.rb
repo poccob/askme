@@ -10,10 +10,10 @@ class User < ApplicationRecord
   validates :email, :username, presence: true
   validates :email, :username, uniqueness: true
 
-  validates :email, format: { with: /\A[a-z\d_+.\-]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i,
+  validates :email, format: { with: /\A\w\d_+.\-]+@[\w\d\-]+(\.[\w\d\-]+)*\.[a-z]+\z/i,
                               message: "Не верно введен email" }
-  validates :username, format: { with: /\A@[a-z\d_]+\z/i,
-                                 message: "Не верно введен username, он должен начинаться на @ " }
+  validates :username, format: { with: /\A[a-z\d_]+\z/i,
+                                 message: "Не верно введен username, нужно использовать только латинские буквы, цифры и знак _" }
   validates :username, length: { maximum: 40,
                                  too_long: "Максимальная длина username 40 символов"}
 
