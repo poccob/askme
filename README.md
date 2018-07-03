@@ -1,24 +1,13 @@
-# README
+проект - "Спроси меня"
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Этот веб сайт на Ruby on Rails, представляет собой клон популярного сервиса "AskMe". 
 
-Things you may want to cover:
+Здесь зарегистрированные пользователи могу на своей странице задавать любые вопросы (например: В чем смысл жизни?), а другие зарегистрированные пользователи моргут отвечать на них.
 
-* Ruby version
+Так же существует возможность редактировать и удалять свои вопросы.
 
-* System dependencies
+В данном проекте реализована регистрация пользователей без подключения сторонних гемов.
 
-* Configuration
+Рекомендуемая версия Ruby 2.4.0 и выше.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+p.s. - это учебный проект
